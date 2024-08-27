@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .top-heading {
-    font-family: Outfit;
+    font-family: 'Outfit' ,sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 150%;
@@ -10,7 +13,7 @@
 }
 
 .top-para {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
@@ -20,17 +23,17 @@
 }
 
 .box-heading {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 120%;
-    text-align: center;
+    text-align: left;
     color: #111111;
     margin-bottom: 0;
 }
 
 .hours {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 120%;
@@ -45,7 +48,7 @@
 }
 
 .box-para {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
@@ -55,7 +58,7 @@
 }
 
 .view-coders {
-    font-family: Inter;
+    font-family: 'Inter',sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;
@@ -86,6 +89,12 @@
     .top-heading {
         font-size: 30px;
     }
+
+.box-para {
+    text-align: center;
+    max-width: 260px;
+}
+  
 }
 
 @media(max-width:768px) {
@@ -93,4 +102,10 @@
         margin-bottom: 25px;
     }
 
+
+}
+@media(max-width:576px){
+    .sm-justify-content-center{
+        justify-content: center;
+    }
 }
